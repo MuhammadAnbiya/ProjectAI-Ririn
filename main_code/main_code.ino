@@ -24,12 +24,12 @@ void loop() {
     char incomingByte = Serial.read();
 
     // Jika karakter yang diterima adalah 'F' (Face Detected)
-    if (incomingByte == 'F') {
+    if (incomingByte == 'N') {
       digitalWrite(LED_PIN, HIGH); // Nyalakan LED
       Serial.println("LED menyala");
     } 
     // Jika karakter yang diterima adalah 'N' (No Face)
-    else if (incomingByte == 'N') {
+    else if (incomingByte == 'F') {
       digitalWrite(LED_PIN, LOW); // Matikan LED
       Serial.println("LED mati");
     }

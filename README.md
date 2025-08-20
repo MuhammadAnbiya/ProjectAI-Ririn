@@ -1,5 +1,3 @@
-ProjectAI-Ririn
-Pendahuluan
 Proyek ini adalah sistem deteksi wajah sederhana menggunakan kombinasi Python, OpenCV, dan ESP32-S3. Tujuannya adalah untuk mendeteksi wajah melalui webcam laptop dan mengirimkan sinyal ke ESP32-S3 untuk mengontrol LED. Ketika wajah terdeteksi, LED akan menyala, dan ketika wajah tidak terdeteksi, LED akan mati.
 
 Fitur
